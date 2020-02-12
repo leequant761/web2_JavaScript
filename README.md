@@ -1,6 +1,8 @@
 # web2_JavaScript
 https://opentutorials.org/course/3085
 
+https://leequant761.github.io/web2_JavaScript/index.html
+
 ## 목적
 
 동적(사용자와 의사소통하며)으로 html을 프로그래밍적으로 제어

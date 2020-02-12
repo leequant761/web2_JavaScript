@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        var coworkers = {
+            'programmer': 'egoing',
+            'designer': 'leezche'
+        };
+        document.write('programmer: ' + coworkers.programmer + '<br>');
+        document.write('programmer: ' + coworkers.programmer + '<br>');
+        coworkers.bookkeeper = 'duru';
+        coworkers['data_scientist'] = 'amd';
+        document.write('bookkeeper: ' + coworkers.bookkeeper + '<br>');
+        document.write('data_scientist: ' + coworkers.data_scientist + '<br>');
+    </script>
+    <h2>Iterate</h2>
+    <script>
+        for(var key in coworkers){
+            document.write(key + '<br>')
+        }
+    </script>
+    <h2>Property & Method</h2>
+    <script>
+        coworkers.showAll = function(){
+                for(var key in this){
+                    document.write(key + '<br>')
+                }
+        }
+        coworkers.showAll()
+    </script>
+</body>
+</html>
